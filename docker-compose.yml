@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  strapi4:
+    build: .
+    ports:
+      - "7050:7050"
