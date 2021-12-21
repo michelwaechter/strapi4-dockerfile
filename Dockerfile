@@ -18,7 +18,7 @@ COPY . .
 RUN yarn run build
 
 # expose 1337 on container
-EXPOSE 1337
+EXPOSE 7050
 
 # start the app
 CMD ["yarn", "develop"]
